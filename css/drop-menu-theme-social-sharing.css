@@ -1,0 +1,209 @@
+
+} /* if you remove this bracket, the animation doesn't work... */
+.drop-element {
+  position: relative;
+  display: none; 
+}
+
+.drop-element.drop-open {
+    display: block; 
+}
+
+.drop-menu-theme-social-sharing.drop-target {
+    display: -moz-inline-stack;
+    vertical-align: middle;
+    *vertical-align: auto;
+    cursor: pointer;
+    display: inline-block;
+    /*padding: 0 50px;*/
+    height: 60px;
+    line-height: 60px;
+    width: 137px;
+    text-align: center; 
+    /*float:right;*/
+}
+
+.drop-menu-theme-social-sharing.drop-element {
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition: opacity 360ms;
+    -moz-transition: opacity 360ms;
+    -o-transition: opacity 360ms;
+    transition: opacity 360ms;
+    opacity: 0.999;
+}
+
+.drop-menu-theme-social-sharing.drop-element .drop-content {
+    overflow: hidden;
+    position: relative; 
+}
+
+.drop-menu-theme-social-sharing.drop-element .drop-content ul {
+    margin: 0;
+    padding: 0; 
+}
+
+.drop-menu-theme-social-sharing.drop-element .drop-content ul li span {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    display: block;
+}
+
+.drop-menu-theme-social-sharing.drop-element .drop-content ul li:nth-child(1) span {
+    -webkit-transform: translate3d(0, -60px, 0);
+    -moz-transform: translate3d(0, -60px, 0);
+    -ms-transform: translate3d(0, -60px, 0);
+    -o-transform: translate3d(0, -60px, 0);
+    transform: translate3d(0, -60px, 0);
+    -webkit-transition: -webkit-transform 240ms ease;
+    -moz-transition: -moz-transform 240ms ease 0ms;
+    -o-transition: -o-transform 240ms ease 0ms;
+    transition: transform 240ms ease 0ms; 
+}
+
+.drop-menu-theme-social-sharing.drop-element .drop-content ul li:nth-child(2) span {
+      -webkit-transform: translate3d(0, -120px, 0);
+      -moz-transform: translate3d(0, -120px, 0);
+      -ms-transform: translate3d(0, -120px, 0);
+      -o-transform: translate3d(0, -120px, 0);
+      transform: translate3d(0, -120px, 0);
+      -webkit-transition: -webkit-transform 240ms ease;
+      -webkit-transition-delay: 60ms;
+      -moz-transition: -moz-transform 240ms ease 60ms;
+      -o-transition: -o-transform 240ms ease 60ms;
+      transition: transform 240ms ease 60ms; 
+}
+
+.drop-menu-theme-social-sharing.drop-element .drop-content ul li:nth-child(3) span {
+    -webkit-transform: translate3d(0, -180px, 0);
+    -moz-transform: translate3d(0, -180px, 0);
+    -ms-transform: translate3d(0, -180px, 0);
+    -o-transform: translate3d(0, -180px, 0);
+    transform: translate3d(0, -180px, 0);
+    -webkit-transition: -webkit-transform 240ms ease;
+    -webkit-transition-delay: 120ms;
+    -moz-transition: -moz-transform 240ms ease 120ms;
+    -o-transition: -o-transform 240ms ease 120ms;
+    transition: transform 240ms ease 120ms; 
+}
+
+.drop-menu-theme-social-sharing.drop-element.drop-after-open .drop-content ul li:nth-child(1) span {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 240ms ease;
+    -webkit-transition-delay: 120ms;
+    -moz-transition: -moz-transform 240ms ease 120ms;
+    -o-transition: -o-transform 240ms ease 120ms;
+    transition: transform 240ms ease 120ms; 
+}
+
+.drop-menu-theme-social-sharing.drop-element.drop-after-open .drop-content ul li:nth-child(2) span {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 240ms ease;
+    -webkit-transition-delay: 60ms;
+    -moz-transition: -moz-transform 240ms ease 60ms;
+    -o-transition: -o-transform 240ms ease 60ms;
+    transition: transform 240ms ease 60ms; 
+}
+
+.drop-menu-theme-social-sharing.drop-element.drop-after-open .drop-content ul li:nth-child(3) span {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 240ms ease;
+    -webkit-transition-delay: 0ms;
+    -moz-transition: -moz-transform 240ms ease 0ms;
+    -o-transition: -o-transform 240ms ease 0ms;
+    transition: transform 240ms ease 0ms; 
+}
+
+.drop-menu-theme-social-sharing.drop-element.drop-element-attached-bottom .drop-content ul li:nth-child(1) span {
+    -webkit-transform: translate3d(0, 180px, 0);
+    -moz-transform: translate3d(0, 180px, 0);
+    -ms-transform: translate3d(0, 180px, 0);
+    -o-transform: translate3d(0, 180px, 0);
+    transform: translate3d(0, 180px, 0);
+    -webkit-transition: -webkit-transform 240ms ease;
+    -webkit-transition-delay: 120ms;
+    -moz-transition: -moz-transform 240ms ease 120ms;
+    -o-transition: -o-transform 240ms ease 120ms;
+    transition: transform 240ms ease 120ms; 
+}
+
+.drop-menu-theme-social-sharing.drop-element.drop-element-attached-bottom .drop-content ul li:nth-child(2) span {
+    -webkit-transform: translate3d(0, 120px, 0);
+    -moz-transform: translate3d(0, 120px, 0);
+    -ms-transform: translate3d(0, 120px, 0);
+    -o-transform: translate3d(0, 120px, 0);
+    transform: translate3d(0, 120px, 0);
+    -webkit-transition: -webkit-transform 240ms ease;
+    -webkit-transition-delay: 60ms;
+    -moz-transition: -moz-transform 240ms ease 60ms;
+    -o-transition: -o-transform 240ms ease 60ms;
+    transition: transform 240ms ease 60ms; 
+}
+
+.drop-menu-theme-social-sharing.drop-element.drop-element-attached-bottom .drop-content ul li:nth-child(3) span {
+    -webkit-transform: translate3d(0, 60px, 0);
+    -moz-transform: translate3d(0, 60px, 0);
+    -ms-transform: translate3d(0, 60px, 0);
+    -o-transform: translate3d(0, 60px, 0);
+    transform: translate3d(0, 60px, 0);
+    -webkit-transition: -webkit-transform 240ms ease;
+    -webkit-transition-delay: 0ms;
+    -moz-transition: -moz-transform 240ms ease 0ms;
+    -o-transition: -o-transform 240ms ease 0ms;
+    transition: transform 240ms ease 0ms; 
+}
+
+.drop-menu-theme-social-sharing.drop-element.drop-element-attached-bottom.drop-after-open .drop-content ul li:nth-child(1) span {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 240ms ease;
+    -webkit-transition-delay: 0ms;
+    -moz-transition: -moz-transform 240ms ease 0ms;
+    -o-transition: -o-transform 240ms ease 0ms;
+    transition: transform 240ms ease 0ms; 
+}
+
+.drop-menu-theme-social-sharing.drop-element.drop-element-attached-bottom.drop-after-open .drop-content ul li:nth-child(2) span {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 240ms ease;
+    -webkit-transition-delay: 60ms;
+    -moz-transition: -moz-transform 240ms ease 60ms;
+    -o-transition: -o-transform 240ms ease 60ms;
+    transition: transform 240ms ease 60ms; 
+}
+
+.drop-menu-theme-social-sharing.drop-element.drop-element-attached-bottom.drop-after-open .drop-content ul li:nth-child(3) span {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 240ms ease;
+    -webkit-transition-delay: 120ms;
+    -moz-transition: -moz-transform 240ms ease 120ms;
+    -o-transition: -o-transform 240ms ease 120ms;
+    transition: transform 240ms ease 120ms; 
+}
