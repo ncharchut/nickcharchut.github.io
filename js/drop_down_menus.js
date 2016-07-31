@@ -1,9 +1,11 @@
 var test = (function() {
-	var init, lists, _Drop;
+	var init, isMobile, setupMenus, _Drop;
 
 	_Drop = Drop.createContext({
 		classPrefix: 'drop'
 	});
+	
+	isMobile = $(window).width() < 567;
 
 	init = function() {
 		return setupMenus();
