@@ -107,6 +107,7 @@ h1 {
 
 .dropdown {
     text-align: center;
+    display: inline-table;
 }
 
 div {
