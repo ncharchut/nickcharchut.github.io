@@ -34,7 +34,7 @@ body {
 }
 
 #home h1:nth-child(1) {
-  text-align: left;
+  text-align: center;
 }
 
 #home-external-nav {
@@ -176,7 +176,7 @@ body {
 
 .drop-element .drop-target {
   display: block;
-  padding: 20px;
+  /*padding: 20px;*/
   background: #cccccc; }
 
 
